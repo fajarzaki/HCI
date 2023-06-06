@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Solway:wght@300;400;500;700;800&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Solway', serif;
+}
+
+.container {
+  width: 85vw;
+  margin: auto;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 32px 0;
+  align-items: center;
+}
+
+.navbar-right {
+  display: flex;
+  gap: 47px;
+}
+
+.navlinks {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+}
+
+.navlinks a {
+  text-decoration: none;
+  color: black;
+}
+
+.navlinks .btn-register {
+  background-color: black;
+  color: white;
+  padding: 4px 20px;
+  border-radius: 32px;
+}
+
+.nav-icons {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.product-text {
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.arriv-text {
+  font-size: 32px;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 28px;
+  margin-bottom: 20px;
+}
+
+.mainborder {
+  display: flex;
+  justify-content: space-between;
+  gap: 13px;
+  margin: 100px 0px;
+}
+
+.border1 {
+  padding: 10px 24px;
+  border-radius: 8px;
+  background-color: #86c4ba;
+}
+.border2 {
+  padding: 10px 24px;
+  border-radius: 8px;
+  background-color: #aa3a3a;
+}
+.border3 {
+  padding: 10px 24px;
+  border-radius: 8px;
+  background-color: #cdac81;
+}
+
+.boder1 img {
+  max-width: 100%;
+}
+
+.judul1 {
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 8px;
+}
